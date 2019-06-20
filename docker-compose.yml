@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+
+  php:
+    container_name: 15market_test
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    working_dir: /app
+    command: /bin/sh /scripts/init.sh
+    ports:
+      - "9000"

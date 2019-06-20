@@ -1,0 +1,22 @@
+{
+    "name": "andyburton/15marketing-dev-task",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Andy Burton",
+            "email": "andy@andyburton.uk"
+        }
+    ],
+    "scripts": {
+        "test": "./vendor/bin/phpunit --bootstrap vendor/autoload.php tests"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "classes"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
