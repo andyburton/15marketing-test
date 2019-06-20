@@ -1,6 +1,6 @@
-# Test output for 15 Marketing Developmeny Task
+# Test output for 15 Marketing Development Task
 
-Example project in PHP 7 to demonstrate use of OOP design patterns, extendable api integration functionality and phpunit tests within a Docker container.
+Example project in PHP 7 to demonstrate use of OOP design patterns, extendable api integration functionality and phpunit tests running within a Docker container.
 
 # Required Resources
 
