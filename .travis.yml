@@ -1,7 +1,9 @@
 language: php
 php:
   - 7.2
-script:
+before_install:
+  - chmod +x ./scripts/test.sh
+install:
   - composer self-update
   - composer install -n -o -d src
 jobs:
