@@ -1,13 +1,8 @@
 language: php
 php:
   - 7.2
-before_script:
-  - composer self-update
+install:
   - composer install -n -o -d src
-jobs:
-  include:
-    - stage: "Tests"
-      name: "Unit Tests"
-      script:
-        - cd src
-        - composer test
+script:
+  - cd src
+  - composer test
