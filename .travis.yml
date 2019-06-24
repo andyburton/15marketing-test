@@ -1,1 +1,8 @@
 language: php
+install:
+  - composer install
+jobs:
+  include:
+    - stage: "Tests"
+      name: "Unit Tests"
+      script: ./scripts/test.sh
